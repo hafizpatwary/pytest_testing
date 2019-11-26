@@ -8,4 +8,4 @@ def test_string():
 	assert factorial.factorial('hello') == 'none', "failed"
 
 def test_negative():
-	assert factorial.factorial(-5) == 'none', "failed"
+	assert factorial.factorial(-120) == '-5', "failed"
