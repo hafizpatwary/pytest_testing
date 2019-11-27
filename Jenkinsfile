@@ -6,6 +6,7 @@ pipeline{
 			steps{
 				sh "pip3 install pytest"
 				sh "pip3 --version"
+				sh "whereis pip3"
 			}
 		}
 		stage('--Printing current working directorty--'){
