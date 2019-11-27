@@ -21,7 +21,7 @@ pipeline{
 		}
 		stage('--list--'){
 			steps{
-				sh "echo previous stage worked"
+				sh "echo 'previous stage worked'"
 			}
 		}
 	}
