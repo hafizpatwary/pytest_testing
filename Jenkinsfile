@@ -12,7 +12,7 @@ pipeline{
 				sh "pytest"
 			}
 		}
-		stage(--list--){
+		stage('--list--'){
 			steps{
 				sh "echo previous stage worked"
 			}
