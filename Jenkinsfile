@@ -9,7 +9,6 @@ pipeline{
 				sh "sudo apt install python-pytest"
 			}
 		}
-
 		stage('--Printing current working directorty--'){
 			steps{
 				sh "pwd "
