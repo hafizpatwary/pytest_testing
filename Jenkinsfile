@@ -5,8 +5,8 @@ pipeline{
 		stage('--Install pytest as Jenkins--'){
 			steps{
 				sh "pip3 install pytest"
-				sh "pip3 --version"
-				sh "whereis pip3"
+				sh "python3 --version"
+				sh "/usr/lib/python3/dist-packages/pytest"
 			}
 		}
 		stage('--Printing current working directorty--'){
