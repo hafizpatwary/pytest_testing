@@ -2,9 +2,9 @@ pipeline{
 	agent any
 
 	stages{
-		stage('Get source code'){
+		stage('--Printing current working directorty--'){
 			steps{
-				sh "pip3 install pytest"
+				sh "pwd "
 			}
 		}
 		stage('--Test--'){
